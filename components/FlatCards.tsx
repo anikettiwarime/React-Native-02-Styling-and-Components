@@ -1,7 +1,7 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
-export const FlatCards = () => {
+const FlatCards = ():React.JSX.Element => {
   return (
     <View>
       <Text style={styles.headingText}>FlatCards</Text>
@@ -52,3 +52,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#1BCA9B',
   },
 });
+
+export default FlatCards;
