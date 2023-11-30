@@ -1,7 +1,7 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
-const FlatCards = ():React.JSX.Element => {
+const FlatCards = (): React.JSX.Element => {
   return (
     <View>
       <Text style={styles.headingText}>FlatCards</Text>
