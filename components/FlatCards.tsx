@@ -1,10 +1,10 @@
-import {StyleSheet, Text, View} from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 
 const FlatCards = (): React.JSX.Element => {
   return (
     <View>
-      <Text style={styles.headingText}>FlatCards</Text>
+      <Text style={styles.headingText}>Flat Cards</Text>
       <View style={styles.container}>
         <View style={[styles.card, styles.cardOne]}>
           <Text>Red</Text>
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     paddingHorizontal: 8,
   },
-  container: {flex: 1, flexDirection: 'row'},
+  container: { flex: 1, flexDirection: 'row' },
   card: {
     flex: 1,
     justifyContent: 'center',
