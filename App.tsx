@@ -11,8 +11,6 @@ const App = (): React.JSX.Element => {
         <FlatCards />
         <ElevatedCards />
         <FancyCards />
-        <FancyCards />
-        <FancyCards />
       </ScrollView>
     </SafeAreaView>
   );
