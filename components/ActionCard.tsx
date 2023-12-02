@@ -14,7 +14,7 @@ const ActionCard = () => {
   };
   return (
     <View>
-      <Text style={styles.headingText}>ActionCard</Text>
+      <Text style={styles.headingText}>Action Card</Text>
       <View style={[styles.card, styles.cardElevated]}>
         <View style={styles.headerContainer}>
           <Text style={styles.headerText}>

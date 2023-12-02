@@ -4,6 +4,7 @@ import FlatCards from './components/FlatCards';
 import ElevatedCards from './components/ElevatedCards';
 import FancyCards from './components/FancyCards';
 import ActionCard from './components/ActionCard';
+import SkillsSet from './components/SkillsSet';
 
 const App = (): React.JSX.Element => {
   return (
@@ -13,6 +14,7 @@ const App = (): React.JSX.Element => {
         <ElevatedCards />
         <FancyCards />
         <ActionCard />
+        <SkillsSet />
       </ScrollView>
     </SafeAreaView>
   );
