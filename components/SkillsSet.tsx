@@ -1,7 +1,7 @@
 import {StyleSheet, Text, View, Image} from 'react-native';
 import React from 'react';
 
-const SkillsSet = () => {
+const SkillsSet = (): React.JSX.Element => {
   const skills = [
     {
       id: 1,

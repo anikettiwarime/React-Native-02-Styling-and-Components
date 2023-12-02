@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import React from 'react';
 
-const ActionCard = () => {
+const ActionCard = (): React.JSX.Element => {
   const openWebsite = (url: string) => {
     Linking.openURL(url);
   };

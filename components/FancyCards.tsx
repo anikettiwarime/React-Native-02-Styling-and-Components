@@ -1,7 +1,7 @@
 import {StyleSheet, Text, View, Image} from 'react-native';
 import React from 'react';
 
-const FancyCards = () => {
+const FancyCards = (): React.JSX.Element => {
   return (
     <View>
       <Text style={styles.headingText}>Fancy Cards</Text>
